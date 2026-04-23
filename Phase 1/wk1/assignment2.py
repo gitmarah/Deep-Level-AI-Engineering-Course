@@ -33,7 +33,7 @@ def main():
             if result["K"] < 0:
                 print("Warning, the temperature is below 0 K")
         except ValueError as e:
-            print(f"Error: {e}\n") 
+            print(f"Error: {e}\n")
         again = input("Would you like continue? (y/n): ").strip().lower()
         if again != "y":
             break
